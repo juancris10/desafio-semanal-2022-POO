@@ -155,7 +155,7 @@ class Juego:
             return False
     
 
-# El juego podria seguir sin esta clase pero igual esta ahi 😀
+
 class Jugador:
     def __init__(self, ficha, jugador) -> None:
         self.ficha = ficha
@@ -185,5 +185,5 @@ def main():
 
 # Practica recomendada, para evitar llamadas sin querer en los imports
 if __name__ == "__main__":
-    print("BIENVENIDO A TU PUTA ")
+    print("BIENVENIDO A TATETI ")
     main()
